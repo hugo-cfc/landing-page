@@ -10,7 +10,7 @@ import SenaiLogo from '@/../../public/senaiLogo.svg';
 
 const Header = () => {
   return (
-    <header className='py-4 px-3 flex items-center justify-center bg-primary'>
+    <header className='py-4 flex items-center justify-center bg-primary'>
       <Container className='flex items-center justify-between notebook:justify-start notebook:gap-x-4 desktop:gap-x-6'>
         <Link className='z-10 cursor-pointer' href='/'>
           <Image

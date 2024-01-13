@@ -14,11 +14,6 @@ const config: Config = {
         desktop: '1320px',
         ultrawide: '1920px',
       },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
         primary: '#005CAA',
         background: '#DBE6F1',

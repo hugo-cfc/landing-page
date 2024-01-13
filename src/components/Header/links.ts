@@ -1,15 +1,15 @@
 const links = [
   {
     name: 'Início',
-    route: '/',
+    route: 'https://al.senai.br/',
   },
   {
-    name: 'Planos',
-    route: '/plans',
+    name: 'Nossos Cursos',
+    route: 'https://al.senai.br/fale_conosco/',
   },
   {
-    name: 'Suporte',
-    route: '/support',
+    name: 'Fale Conosco',
+    route: 'https://al.senai.br/fale_conosco/',
   },
 ];
 

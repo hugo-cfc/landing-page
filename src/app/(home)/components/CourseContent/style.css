@@ -1,0 +1,26 @@
+#content-img {
+  background-image: url('../../../../../public/CourseContent.jpg');
+  background-position: center;
+  background-size: cover;
+
+  position: relative;
+}
+
+#img:before {
+  filter: blur(2px);
+
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+ul li::before {
+  content: '\25A0';
+  color: #005caa;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}

@@ -5,9 +5,9 @@ const filled = tv({
   variants: {
     color: {
       primary:
-        'bg-white hover:bg-gray-700 hover:text-white active:bg-gray-800 active:text-white disabled:bg-gray-400',
+        'bg-primary text-white hover:bg-blue-900 active:bg-neutral-950 disabled:bg-neutral-400',
       secondary:
-        'bg-primary hover:bg-blue-900 active:bg-neutral-950 disabled:bg-neutral-400',
+        'bg-white hover:bg-gray-700 hover:text-white active:bg-gray-800 active:text-white disabled:bg-gray-400',
     },
     spacing: {
       sm: 'px-4 py-1 text-xs notebook:text-base',

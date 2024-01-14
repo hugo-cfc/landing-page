@@ -28,7 +28,7 @@ const MenuDropdown = () => {
       </DropdownMenu.DropdownMenuTrigger>
 
       <DropdownMenu.Portal>
-        <DropdownMenu.Content className='bg-white absolute top-[16px] right-[-22px] w-screen h-[calc(100vh-56px)] px-8 flex flex-col justify-evenly items-center animate-topToBottom'>
+        <DropdownMenu.Content className='bg-white z-50 absolute top-[16px] right-[-22px] w-screen h-[calc(100vh-56px)] px-8 flex flex-col justify-evenly items-center animate-topToBottom'>
           <div className='w-full h-full flex flex-col justify-evenly items-center'>
             <Image
               className='w-24'

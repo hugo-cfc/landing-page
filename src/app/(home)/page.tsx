@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Sections from './components/Sections';
 import AboutIt from './components/AboutIt';
 import CourseContent from './components/CourseContent';
+import Infos from './components/Infos';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Sections>
         <AboutIt />
         <CourseContent />
+        <Infos />
       </Sections>
     </main>
   );

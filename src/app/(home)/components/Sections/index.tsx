@@ -9,7 +9,7 @@ const Sections = ({ children, className }: SectionsProps) => {
 
   return (
     <div className={`${finalStyles}`}>
-      <Container>{children}</Container>
+      <Container className='relative'>{children}</Container>
     </div>
   );
 };

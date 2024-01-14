@@ -2,7 +2,7 @@ import Container from '@/components/Container';
 import Info from './Components/Info';
 
 import { infos } from './infos';
-import Button from '@/components/Button';
+import RegisterButton from './Components/RegisterButton';
 
 const Infos = () => {
   return (
@@ -15,9 +15,7 @@ const Infos = () => {
             ))}
           </div>
 
-          <Button className='mt-8 w-full font-bold tablet:w-8/12 tablet:mx-auto'>
-            MATRICULE-SE
-          </Button>
+          <RegisterButton />
         </Container>
       </div>
 
@@ -28,9 +26,7 @@ const Infos = () => {
           ))}
         </div>
 
-        <Button className='mt-8 w-full font-bold tablet:w-8/12 tablet:mx-auto'>
-          MATRICULE-SE
-        </Button>
+        <RegisterButton />
       </div>
     </>
   );

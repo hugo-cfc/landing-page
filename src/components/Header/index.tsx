@@ -25,7 +25,7 @@ const Header = () => {
         <div className='hidden tablet:flex justify-between gap-x-12 notebook:gap-x-4 desktop:gap-x-6'>
           {links.map((link) => (
             <Link
-              key={link.route}
+              key={link.name}
               href={link.route}
               className='text-white transition-all hover:brightness-75 active:brightness-50 text-sm notebook:text-xs'
             >

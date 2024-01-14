@@ -9,7 +9,7 @@ const links = [
   },
   {
     name: 'Fale Conosco',
-    route: 'https://al.senai.br/fale_conosco/',
+    route: 'https://al.senai.br/nossos-cursos/',
   },
 ];
 
